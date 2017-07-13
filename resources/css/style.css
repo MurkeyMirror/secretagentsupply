@@ -1,0 +1,122 @@
+
+html {
+  /* the rem unit of measure is based off of this size */
+  font-size: 18px;
+}
+
+body {
+  margin: 0px 0px;
+  font-family: Helvetica;
+  color: white;
+}
+
+.site-container {
+  width: 960px;
+  /* both set to auto will center the div along horizontal axis */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+
+/* Header */
+
+header {
+  font-size: 1rem;
+  height: 2.32rem;
+  background-color: black;
+}
+
+header img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+
+/* Banner */
+
+.banner-main {
+  height: 25rem;
+  background-image: url("../images/moto.jpeg");
+  /* cant get this to match the redline document */
+  background-size: cover;
+  background-position: center center;
+  /* prevents the padding from being colored black */
+  overflow: auto;
+}
+
+.banner-message {
+  margin-top: 9rem;
+  width: 20rem;
+  background-color: black;
+  font-weight: bold;
+  padding: 2rem 3rem;
+  padding-left: 3rem;
+}
+
+#line1 {
+  font-size: 1rem;
+  padding-bottom: 0.25rem;
+}
+
+#line2 {
+  font-size: 2rem;
+}
+
+
+/* Main Content */
+
+nav {
+  background-color: firebrick;
+  height: 2.5rem;
+}
+
+#product-nav {
+  justify-content: space-between;
+  padding: 0.75rem 0rem;
+}
+
+nav a {
+  color: white;
+  text-decoration-line: none;
+  font-weight: bold;
+}
+
+.product-grid {
+  margin-top: 3rem;
+}
+
+.products {
+  justify-content: space-between;
+}
+
+.product {
+  border: 4px solid black;
+  width: 30%;
+  flex-direction: column;
+  background-color: black;
+  
+}
+
+.product img {
+  height: 9rem;
+  max-width: 100%;
+  padding: 2rem 0rem;
+}
+
+.product p {
+}
+
+
+
+
+
+
+footer {
+  text-align: left;
+}
